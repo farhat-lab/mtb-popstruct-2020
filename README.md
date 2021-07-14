@@ -8,7 +8,7 @@ Note:  a combined  `.vcf`  file is a `.vcf` file containing variant calls for al
 
 What differs between the two scripts are the outputs:  
 
-* `define_groups.R` returns 1) a Newick tree, rooted and annotated with all the calculated FST values; (2) a rooted Newick tree where the FST values are binarized, according to a threshold decided by the user; 
+* `define_groups.R` returns (1) a Newick tree, rooted and annotated with all the calculated FST values; (2) a rooted Newick tree where the FST values are binarized, according to a threshold decided by the user; 
 * `define_groups_colorize.R` returns (1) a Newick tree, rooted and annotated with all the calculated FST values; (2) a rooted Newick tree where the FST values are binarized, according to a threshold decided by the user; (3) a rooted Newick tree with the original node numbers; (4) a Nexus tree with meta-comments that can be visualized with FigTree.
 
 
